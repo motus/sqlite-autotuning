@@ -3,6 +3,9 @@ import numpy as np
 FUNC_DOMAIN = (0, 1000000)
 FUNC_RANGE = (0.2, 1.8)
 
+TUNABLE_PARAM_NAME = "sched_migration_cost_ns"
+METRIC_NAME = "Latency, ms"
+
 
 # A popular synthetic target for optimization
 def gramacy_lee(x: float) -> float:
